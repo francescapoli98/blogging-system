@@ -1,0 +1,279 @@
+@charset "UTF-8";
+
+/* unvisited link */
+.visible:link {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+/* visited link */
+.visible:visited {
+  color: inherit;
+}
+
+/* mouse over link */
+.visible:hover {
+  color: inherit;
+  text-decoration-style: solid;
+}
+
+/* selected link */
+.visible:active {
+  color: inherit;
+}
+
+
+
+.name:link {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-style: solid;
+}
+
+.name:visited {
+  color: inherit;
+}
+
+.name:hover {
+  color: inherit;
+  background:#d6f5f5;
+}
+
+.name:active {
+  color: inherit;
+}
+
+
+.bg-dashboard1 {
+  background-color: #d1f4fa;
+}
+
+.bg-dashboard2 {
+  background-color: #f9e6d2;
+}
+
+.bg-blogimg{
+  margin: 10px;
+  margin-bottom: 3%;
+}
+
+.container-fluid {
+  width: auto;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 1.9%;
+  padding-left: 0px;
+  padding-right: 0px;
+  height: 100%;
+  display: block;
+}
+.adapt{
+  height: max-content;
+}
+.session{
+  width: 100%;
+  border-bottom-style: dashed;
+  border-bottom-color: grey;
+  border-bottom-width: thin;
+}
+
+.hidden{
+       display:none;
+    }
+
+.vailink{
+  color:  black;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+.vailink:hover{
+  color:  black;
+  text-decoration: underline;
+  text-decoration-style: solid;
+}
+.vailink:active{
+  color: black;
+  text-decoration: underline;
+  text-decoration-style: solid;
+}
+
+.indexlink{
+  color:  black;
+}
+.indexlink:hover{
+  color:  white;
+  text-decoration: none;
+}
+.indexlink:active{
+  color:  white;
+  text-decoration: none;
+}
+
+.headerlink{
+  color:  black;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+.headerlink:hover{
+  color: #f07167;
+}
+.headerlink:active{
+  color: #f07167;
+}
+
+.premium{
+  border-top-style: dashed;
+  border-top-width: thin;
+  background-color: #d1f4fa;
+}
+
+.postform{
+  padding: 6%;
+}
+
+
+
+.postcontainer{
+  width: 100%;
+  margin: 3%;
+  border-top-style: solid;
+  border-top-width: medium;
+  border-top-color:  #f4d1ae;
+}
+
+#allposts{
+  margin-bottom: 5%;
+}
+
+.commentdiv{
+  border-bottom-style: dashed;
+  border-bottom-width: thin;
+  border-bottom-color: #f4d1ae;
+  margin-bottom: 1%;
+}
+
+.commentdiv2{
+  margin: 1%;
+}
+
+#newcomment{
+  width: 80%;
+  margin-left: 5%;
+}
+
+.prof{
+  color:#5c8a79;
+}
+
+.profilo{
+  border-bottom-style: solid;
+  border-bottom-color: #f4d1ae;
+  padding: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+
+.postlink{
+  color:  #f07167;
+  text-decoration: underline;
+}
+.postlink:hover{
+  color:  #ed5145;
+}
+.postlink:active{
+  color:  #ed5145;
+}
+
+.login{
+  list-style: none;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  border-bottom-color: #e6e6e6;
+}
+
+.results{
+  list-style: none;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  border-bottom-color: #006280;
+  padding: 10px;
+}
+
+.results a{
+  text-decoration: none;
+  color: inherit;
+}
+.results a:hover{
+  text-decoration: underline;
+}
+.results a:active{
+  text-decoration: underline;
+  color: #006280;
+}
+
+#result{
+  display: none;
+  position: absolute;
+ background-color: #f9f9f9;
+ min-width: 160px;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ padding: 12px 16px;
+ z-index: 10;
+}
+
+.like{
+  border-style: solid;
+  border-width: thin;
+  padding: 2% 2% 0 2%;
+  display: inline-block;
+  margin: 1% 1% 3% 3%;
+}
+
+.fas{
+  cursor: pointer;
+}
+
+.far{
+  cursor: pointer;
+}
+
+.counter{
+  color: black;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  margin: 1.5%;
+}
+
+.choose{
+  list-style: none;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  border-bottom-color: #e6e6e6;
+}
+
+.blogdiv{
+  padding: 6%;
+  border-width: thick;
+  border-color: #f4d1ae;
+
+}
+
+.desc,.postdiv{
+  border-left-style: double;
+  border-left-color: #f4d1ae;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-left: 1%;
+}
+
+.colors{
+    height: 5px;
+    width: 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+option:hover{
+  background-color: transparent;
+}
